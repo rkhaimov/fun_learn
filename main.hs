@@ -1,3 +1,7 @@
 module Main where
 
-main = print "Hello world"
+salutation = "Hello"
+person = "George"
+
+-- 35 page
+main = print (salutation <> "" <> person)
